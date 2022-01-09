@@ -10,29 +10,25 @@ ___
 ## ✨ **Conteúdo**
 - [💻 **Documentação com Swagger**](#-documentação-com-swagger)
   - [✨ **Conteúdo**](#-conteúdo)
+  - [🛠 &nbsp; Ferramentas e Tecnologias](#--ferramentas-e-tecnologias)
   - [💻 **Biblioteca Swagger Geração de Documentação de API**](#-biblioteca-swagger-geração-de-documentação-de-api)
-  - [🚀 **Testar o Projeto:**](#-testar-o-projeto)
-    - [Para testar o **Simple Crud**, siga estas etapas:](#para-testar-o-simple-crud-siga-estas-etapas)
-  - [🚧 **Arquitetura Utilizada no Projeto**](#-arquitetura-utilizada-no-projeto)
+  - [� **Arquitetura Utilizada no Projeto**](#-arquitetura-utilizada-no-projeto)
     - [**Server**](#server)
     - [**Middleware**](#middleware)
     - [**Routes**](#routes)
-  - [☕ **Ajustes e melhorias**](#-ajustes-e-melhorias)
   - [📝 **Licença MIT**](#-licença-mit)
 ___
 
-<!-- ## :construction:  **Ferramentas e Tecnologias Utilizadas no Projeto**
-  ![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-  ![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-  ![](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-  ![](https://img.shields.io/badge/visualStudio-3498DB?style=for-the-badge&logo=visualstudiocode&logoColor=white")
-  ![](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) 
-  ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
-  ![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  
-  ![](https://img.shields.io/badge/Linux-7B42BC?style=for-the-badge&logo=linux&logoColor=black)
-___ -->
+## 🛠 &nbsp; Ferramentas e Tecnologias
 
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
+![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)&nbsp;
+![Typescript](https://img.shields.io/badge/-Typescript-05122A?style=flat&logo=typescript)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)&nbsp;
+___
 ## 💻 **Biblioteca Swagger Geração de Documentação de API** 
   - Gerar Documentação das rotas e parâmetros com a biblioteca `Swagger`.
 ___
@@ -45,7 +41,7 @@ ___
     ![configuração de conexão do banco de dados](.github/ormconfig.png "Configuração de conexão do banco de dados")  
 ___ -->
 
-## 🚀 **Testar o Projeto:**
+<!-- ## 🚀 **Testar o Projeto:**
   ### Para testar o **Simple Crud**, siga estas etapas:
 
   1. Faça um clone deste repositório: `https://github.com/vitorjobs/rocket_swaggerDoc.git`.
@@ -54,7 +50,7 @@ ___ -->
   4. Crie um banco de dados com tabelas limpas: `yarn typeorm migration:run`
   5. Inicie o projeto: `npm run dev`
   6. Importe o arquivo **ormconfig.json** para aplicativos insomnia ou post.
-  7. Teste os EndPoints.
+  7. Teste os EndPoints. -->
 ___ 
 ## 🚧 **Arquitetura Utilizada no Projeto**
 
@@ -69,7 +65,7 @@ ___
   ### **Routes**
     Contém os rotas com os EndPoints que serão utilizadas para a geração da documentação 
   
-## ☕ **Ajustes e melhorias**
+<!-- ## ☕ **Ajustes e melhorias**
 
   O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
@@ -77,7 +73,7 @@ ___
   - [ ] Implementar rota para excluir videos
   - [ ] Implementar a documentação do projeto
   - [ ] Implementar testes no projeto
-  - [ ] Deploy
+  - [ ] Deploy -->
 
 ## 📝 **Licença MIT**
 
