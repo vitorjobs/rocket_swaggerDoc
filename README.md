@@ -12,7 +12,7 @@ ___
   - [✨ **Conteúdo**](#-conteúdo)
   - [🛠 &nbsp; Ferramentas e Tecnologias](#--ferramentas-e-tecnologias)
   - [💻 **Biblioteca Swagger Geração de Documentação de API**](#-biblioteca-swagger-geração-de-documentação-de-api)
-  - [� **Arquitetura Utilizada no Projeto**](#-arquitetura-utilizada-no-projeto)
+  - [🚧 **Arquitetura Utilizada no Projeto**](#-arquitetura-utilizada-no-projeto)
     - [**Server**](#server)
     - [**Middleware**](#middleware)
     - [**Routes**](#routes)
@@ -30,7 +30,7 @@ ___
 ![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)&nbsp;
 ___
 ## 💻 **Biblioteca Swagger Geração de Documentação de API** 
-  - Gerar Documentação das rotas e parâmetros com a biblioteca `Swagger`.
+  - Gerar Documentação das rotas e parâmetros com a biblioteca [Swagger](https://www.npmjs.com/package/swagger-ui-express).
 ___
 
 <!-- ## 📫 **Banco de dados**  
