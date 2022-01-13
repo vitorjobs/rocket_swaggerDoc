@@ -66,6 +66,36 @@
           }
         }
       }
+    },
+    "/products/findByName":{
+      "get":{
+        "summary": "Busca de Produto Pelo Nome",
+        "description": "Rota responsável por buscar um produto pelo nome",
+        "tags": ["Products"],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "description": "Nome do produto para busca",
+            "required": true
+          }
+        ],   
+        "responses": {
+          "200": {
+            "description":"OK",
+            "content": {
+              "application/json":{
+                "schema":{
+                  "type": "object",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  } 
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
