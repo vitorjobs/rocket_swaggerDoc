@@ -96,6 +96,36 @@
           }
         }
       }
+    },
+    "/products/{id}":{
+      "get":{
+        "summary": "Busca de Produto Pelo ID",
+        "description": "Rota responsável por buscar um produto pelo ID",
+        "tags": ["Products"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Nome do produto para busca pelo ID",
+            "required": true
+          }
+        ],   
+        "responses": {
+          "200": {
+            "description":"OK",
+            "content": {
+              "application/json":{
+                "schema":{
+                  "type": "object",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  } 
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
