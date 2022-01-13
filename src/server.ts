@@ -9,9 +9,8 @@ app.use(express.json())
 app.use(router)
 
 
-// MEDLEWARE DO SWAGER
 // ROTA PARA A DOCUMENTAÇÃO 
-app.use("/docs", swaggerUI.serve, swaggerUI.setup()) 
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerDoc)) 
 
 app.get('/terms', (request, response) =>{
   return response.json({
