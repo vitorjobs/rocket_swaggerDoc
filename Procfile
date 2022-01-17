@@ -1,1 +1,1 @@
-web: npm run dev
+web: .nome_modules/.bin/ts-node --./server.ts
