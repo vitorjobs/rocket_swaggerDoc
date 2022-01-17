@@ -27,6 +27,6 @@ app.get('/', (request, response) =>{
 
 app.use('/v1', router)
 
-app.listen(3000, () =>{
+app.listen(process.env.PORT || 3000, () =>{
   console.log(`Server Online on Port 3000`)
 })
