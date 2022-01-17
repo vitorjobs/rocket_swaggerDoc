@@ -125,6 +125,54 @@
             }
           }
         }
+      },
+      "put":{
+        "summary": "Alterar de Produto Pelo ID",
+        "description": "Rota responsável por Alterar um produto pelo ID",
+        "tags": ["Products"],
+        "security": [{"bearerAuth": []}],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Alterar um produto pelo ID",
+            "required": true
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json":{
+              "schema":{
+                "$ref" : "#/components/schemas/Product"
+              },
+              "examples":{
+                "product":{
+                  "value": {
+                    "name": "Nome do Objeto alterado",
+                    "description": "Descrição do Objeto alterado",
+                    "price": 250.00
+
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description":"OK",
+            "content": {
+              "application/json":{
+                "schema": {
+                  "type": "object",
+                  "items": {
+                    "$ref": "#/components/schemas/Product"
+                  } 
+                }
+              }
+            }
+          }
+        }
       }
     }
   },
